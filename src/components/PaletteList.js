@@ -6,7 +6,6 @@ import styles from './styles/PaletteListStyles'
 
 function PaletteList(props) {
     const {palettes, classes, route, deletePalette} = props
-    console.log(route)
 
     return(
         <div className={classes.root}>
