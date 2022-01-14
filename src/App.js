@@ -8,8 +8,6 @@ import PaletteList from './components/PaletteList';
 import NewPaletteForm from './components/NewPaletteForm';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import Page from './components/Page';
-import sizes from './components/styles/sizes';
-
 
 function App() {
   function findPalette(id) {
